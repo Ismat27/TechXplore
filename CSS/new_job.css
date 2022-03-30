@@ -23,9 +23,9 @@ img {
     max-width: 90%;
     margin: auto;
 }
-.jobs {
+/* .jobs {
     /* row-gap: 50px; */
-}
+*/
 .job {
     max-width: 320px;
     background: rgba(243, 250, 245, 0.29);
