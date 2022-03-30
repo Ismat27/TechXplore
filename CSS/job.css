@@ -1,9 +1,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    align-content: center;
     background-color: #DFE3EE;
+    padding: 0;
+    margin: 0;
 }
 
 ul{
@@ -13,18 +13,11 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: white;
-
 }
 .container{
     border-bottom: 3px solid #A7B0C7;
     
 }
-/** styling the image **/
-
-.logo{
-    position: absolute;
-}
-/** end here **/
 
 li a{
     display: block;
@@ -86,11 +79,9 @@ li .dropdown{
 .search--engines {
     display: flex;
     padding: 8px;
-    margin-right: 200px;
     justify-content: space-around;
-    margin-left: 50px;
-    margin-top: 150px;
     flex-wrap: wrap;
+    row-gap: 20px;
 }
 select {
     padding: 5px;
@@ -231,26 +222,18 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:space-between;
-    margin-left: 180px;
-    margin-right: 180px;
-    
 }
-.flexbox-container>div {
-    max-width: 320px;
+.flexbox-container {
+    max-width: 90%;
+    margin: auto;
 }
 .flexbox1, .flexbox2, .flexbox3, .flexbox4, .flexbox5, .flexbox6, .flexbox7, .flexbox8, .flexbox9, .flexbox10, .flexbox11,.flexbox12 {
     background-color: rgba(243, 250, 245, 0.29);
-    height: 395px;
-    width: 320px;
+    max-width: 320px;
     flex-shrink: 0;
     margin-bottom: 40px;
-    margin-left: 30px;
-    margin-top: 40px;
     border-radius: 20px;
     padding: 20px;
-    
-
-
 }
 span {
     font-size: 20px;
@@ -285,3 +268,8 @@ b {
     color: mediumblue;
 }
 
+@media screen and (max-width: 800px){
+    .search--engines {
+        flex-direction: column;
+    }
+}
