@@ -30,6 +30,7 @@ header {
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .profile-switch {
     cursor: pointer;
