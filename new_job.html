@@ -9,12 +9,73 @@
     <link rel="stylesheet" href="css/new_job.css">
 </head>
 <body>
+    <header>
+        <a href="index.html">
+            <img src="images/Logo_whitebg_c1_50.jpg" alt="TechXplore">
+        </a>
+        <div class="profile">
+            <p class="profile-switch">My profile</p>
+            <ul class="profile-items">
+                <li class="profile-item"><a href="profile_page.html">My Courses</a></li>
+                <li class="profile-item"><a href="badges_page.html">My badges</a></li>
+                <li class="profile-item"><a href="">Notifications</a></li>
+                <li class="profile-item"><a href="">My messages</a></li>
+                <li class="profile-item"><a href="discussion.html">Discussions</a></li>
+                <li class="profile-item"><a href="job.html">Jobs/Internships</a></li>
+                <li class="profile-item"><a href="">Payment Methods</a></li>
+                <li class="profile-item"><a href="">Account settings</a></li>
+                <li class="profile-item"><a href="">My Cart</a></li>
+                <li class="profile-item"><a href="signin.html">Sign Out</a></li>
+            </ul>
+        </div>
+    </header>
+    <script src="js/job.js"></script>
     <main>
-        <section class="container filter">
-            <div class="search"></div>
-            <div class="location"></div>
-            <div class="job-type"></div>
-            <div class="salary"></div>
+        <section class="container filter-section">
+            <div class="filter">
+                <div class="search">
+                    <input class="bd-none" type="text" placeholder="Designer">
+                </div>
+                <div class="location">
+                    <select class="bd-none" id="Location" name="Location">
+                        <option value="Location">Location</option>     
+                        <option value="Location" >Lagos</option>     
+                        <option value="Location" >Abuja</option>     
+                        <option value="Location" >Rivers</option>     
+                        <option value="Location" >Oyo</option>     
+                        <option value="Location" >Ogun</option>     
+                        <option value="Location" >Kano</option>     
+                        <option value="Location" >Borno</option>     
+                    </select>
+                </div>
+                <div class="job-type">
+                    <select class="bd-none" id="Jobtype" name="Jobtype">
+                        <option value="Jobtype" selected>Job type</option>
+                        <option value="remote">Remote</option>
+                        <option value="fulltime">Full-time</option>
+                        <option value="contract">Contract</option>
+                        <option value="intern">Intern</option>
+                    </select>
+                </div>
+                <div class="salary">
+                    <select class="bd-none" id="Salary" name="Salary">
+                        <option value="Salary" selected>Salary</option>
+                        <option value="less tha 50,000">less than 50,000</option>
+                        <option value="2">50,000-61,000</option>
+                        <option value="3">61,000-70,000</option>
+                        <option value="4">71,000-80,000</option>
+                        <option value="5">81,000-90,000</option>
+                        <option value="6">91,000-100,000</option>
+                        <option value="7">101,000-110,000</option>
+                        <option value="8">111,000-120,000</option>
+                        <option value="9">121,000-130,000</option>
+                        <option value="10">131,000-140,000</option>
+                        <option value="11">141,000-150,000</option>
+                        <option value="12">151,000-160,000</option>
+                        <option value="13">161,000-170,000</option>
+                    </select>
+                </div>
+            </div>
         </section>
         <section class="container jobs-section">
             <h1>Showing 46 jobs</h1>
