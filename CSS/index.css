@@ -332,7 +332,7 @@ input {
     }
     .hero {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
     }
     .hero-desc {
         flex-basis: 40%;
