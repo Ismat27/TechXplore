@@ -4,220 +4,260 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>job.html</title>
-    <link rel="stylesheet" href="CSS/job.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
-    <link rel="icon" href="Image/Group 60Fav.png">
+    <title>Jobs/Internships</title>
+    <link rel="icon" type="image/x-icon" href="img/Fav.svg">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/job.css">
 </head>
 <body>
-
-        <ul class="container" id="top">
-            <li><img src="IMG/Logo_trasparent.png" alt="logo" class="logo"></li>
-            <li><a href="index.html" class="home" style="float:left;">Home</a></li>
-            <li class="dropdown" style="float:right;">
-                <button class="dropbtn">My Profile</button>
-                <div class="dropdown-content">
-                    <a href="profile_page.html">My course</a>
-                    <a href="badges_page.html">My badges</a>
-                    <a href="#notifications">Notifications</a>
-                    <a href="#messgaes">My messages</a>
-                    <a href="discussion.html">Discussion</a>
-                    <a href="job.html">Jobs/Internships</a>
-                    <a href="#payments">Payment Methods</a>
-                    <a href="#account">Account settings</a>
-                    <a href="cart">My cart</a>
-                    <a href="index.html">Sign out</a>
-                </div>
+    <header>
+        <a href="index.html">
+            <img src="images/Logo_whitebg_c1_50.jpg" alt="TechXplore">
+        </a>
+        <div class="profile">
+            <li class="profile-switch">
+                <span class="profile-show">My profile</span>
+                <ul class="profile-items">
+                    <li class="profile-item"><a href="profile_page.html">My Courses</a></li>
+                    <li class="profile-item"><a href="badges_page.html">My badges</a></li>
+                    <li class="profile-item"><a href="">Notifications</a></li>
+                    <li class="profile-item"><a href="">My messages</a></li>
+                    <li class="profile-item"><a href="discussion.html">Discussions</a></li>
+                    <li class="profile-item"><a href="job.html">Jobs/Internships</a></li>
+                    <li class="profile-item"><a href="">Payment Methods</a></li>
+                    <li class="profile-item"><a href="">Account settings</a></li>
+                    <li class="profile-item"><a href="">My Cart</a></li>
+                    <li class="profile-item"><a href="signin.html">Sign Out</a></li>
+                </ul>
             </li>
-        </ul>
-
-
-    <div class="search--engines">
-        <!-- <span class="search"> -->
-        <input class="designer"  type="text" name="designer" placeholder="Designer" autofocus="autofocus" value="">
-       <select id="Location" name="Location">
-            <option value="Location" selected>Location</option>     
-            <option value="Location" >Lagos</option>     
-            <option value="Location" >Abuja</option>     
-            <option value="Location" >Rivers</option>     
-            <option value="Location" >Oyo</option>     
-            <option value="Location" >Ogun</option>     
-            <option value="Location" >Kano</option>     
-            <option value="Location" >Borno</option>     
-        </select>
-    
-        <select id="Jobtype" name="Jobtype">
-            <option value="Jobtype" selected>Job type</option>
-            <option value="remote">Remote</option>
-            <option value="fulltime">Full-time</option>
-            <option value="contract">Contract</option>
-            <option value="intern">Intern</option>
-        </select>
-
-        <select id="Salary" name="Salary">
-            <option value="Salary" selected>Salary</option>
-            <option value="less tha 50,000">less than 50,000</option>
-            <option value="2">50,000-61,000</option>
-            <option value="3">61,000-70,000</option>
-            <option value="4">71,000-80,000</option>
-            <option value="5">81,000-90,000</option>
-            <option value="6">91,000-100,000</option>
-            <option value="7">101,000-110,000</option>
-            <option value="8">111,000-120,000</option>
-            <option value="9">121,000-130,000</option>
-            <option value="10">131,000-140,000</option>
-            <option value="11">141,000-150,000</option>
-            <option value="12">151,000-160,000</option>
-            <option value="13">161,000-170,000</option>
-        </select>
-    </div>
-    <!-- <div>
-        <select id="sort" name="sort">
-            <option value="sort" selected>Sort by <b>Last posted</b></option>
-        </select>
-    </div> -->
-
-    <h1>Showing 46 Jobs</h1>
-    <div class=" flexbox-container">
-        <div class="flexbox1">
-            <img class="apple" src="Image/UIUX.png" alt="">
-            <h3>UI/UX designer</h3> 7 Jan. <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
         </div>
-        <div class="flexbox2">
-            <img class="apple" src="Image/product design.png" alt="">
-            <h3>Product designer</h3> 3 mins <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="intern">Intern</button>
-            <button class="remote">Remote</button>
-            <button class="beginer">Beginer</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
+    </header>
+    <script src="js/job.js"></script>
+    <main>
+        <section class="container filter-section">
+            <div class="filter">
+                <div class="search">
+                    <input class="bd-none" type="text" placeholder="Designer">
+                </div>
+                <div class="location">
+                    <select class="bd-none" id="Location" name="Location">
+                        <option value="Location">Location</option>     
+                        <option value="Location" >Lagos</option>     
+                        <option value="Location" >Abuja</option>     
+                        <option value="Location" >Rivers</option>     
+                        <option value="Location" >Oyo</option>     
+                        <option value="Location" >Ogun</option>     
+                        <option value="Location" >Kano</option>     
+                        <option value="Location" >Borno</option>     
+                    </select>
+                </div>
+                <div class="job-type">
+                    <select class="bd-none" id="Jobtype" name="Jobtype">
+                        <option value="Jobtype" selected>Job type</option>
+                        <option value="remote">Remote</option>
+                        <option value="fulltime">Full-time</option>
+                        <option value="contract">Contract</option>
+                        <option value="intern">Intern</option>
+                    </select>
+                </div>
+                <div class="salary">
+                    <select class="bd-none" id="Salary" name="Salary">
+                        <option value="Salary" selected>Salary</option>
+                        <option value="less tha 50,000">less than 50,000</option>
+                        <option value="2">50,000-61,000</option>
+                        <option value="3">61,000-70,000</option>
+                        <option value="4">71,000-80,000</option>
+                        <option value="5">81,000-90,000</option>
+                        <option value="6">91,000-100,000</option>
+                        <option value="7">101,000-110,000</option>
+                        <option value="8">111,000-120,000</option>
+                        <option value="9">121,000-130,000</option>
+                        <option value="10">131,000-140,000</option>
+                        <option value="11">141,000-150,000</option>
+                        <option value="12">151,000-160,000</option>
+                        <option value="13">161,000-170,000</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="container jobs-section">
+            <h1>Showing 46 jobs</h1>
+            <div class="jobs">
+                <div class="job">
+                    <img src="" alt="" class="job-logo">
+                    <div class="job-ref">
+                        <h1 class="job-title">UI/UX designer</h1>
+                        <p class="time-posted">3 mins</p>
+                    </div>
+                    <i class="app-no">be the first to apply</i>
+                    <div class="job-specs">
+                        <p class="job-spec">full time</p>
+                        <p class="job-spec">remote</p>
+                        <p class="job-spec">Intermediate</p>
+                    </div>
+                    <p class="job-req">
+                        We are looking for a designer who is detailed oriented and creates simple and usable designs.
+                    </p>
+                    <div class="action-btns">
+                        <a class="action-btn " href="">Apply now</a>
+                        <a class="action-btn " href="">Contact</a>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="" alt="" class="job-logo">
+                    <div class="job-ref">
+                        <h1 class="job-title">UI/UX designer</h1>
+                        <p class="time-posted">3 mins</p>
+                    </div>
+                    <i class="app-no">be the first to apply</i>
+                    <div class="job-specs">
+                        <p class="job-spec">full time</p>
+                        <p class="job-spec">remote</p>
+                        <p class="job-spec">Intermediate</p>
+                    </div>
+                    <p class="job-req">
+                        We are looking for a designer who is detailed oriented and creates simple and usable designs.
+                    </p>
+                    <div class="action-btns">
+                        <a class="action-btn " href="">Apply now</a>
+                        <a class="action-btn " href="">Contact</a>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="" alt="" class="job-logo">
+                    <div class="job-ref">
+                        <h1 class="job-title">UI/UX designer</h1>
+                        <p class="time-posted">3 mins</p>
+                    </div>
+                    <i class="app-no">be the first to apply</i>
+                    <div class="job-specs">
+                        <p class="job-spec">full time</p>
+                        <p class="job-spec">remote</p>
+                        <p class="job-spec">Intermediate</p>
+                    </div>
+                    <p class="job-req">
+                        We are looking for a designer who is detailed oriented and creates simple and usable designs.
+                    </p>
+                    <div class="action-btns">
+                        <a class="action-btn " href="">Apply now</a>
+                        <a class="action-btn " href="">Contact</a>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="" alt="" class="job-logo">
+                    <div class="job-ref">
+                        <h1 class="job-title">UI/UX designer</h1>
+                        <p class="time-posted">3 mins</p>
+                    </div>
+                    <i class="app-no">be the first to apply</i>
+                    <div class="job-specs">
+                        <p class="job-spec">full time</p>
+                        <p class="job-spec">remote</p>
+                        <p class="job-spec">Intermediate</p>
+                    </div>
+                    <p class="job-req">
+                        We are looking for a designer who is detailed oriented and creates simple and usable designs.
+                    </p>
+                    <div class="action-btns">
+                        <a class="action-btn " href="">Apply now</a>
+                        <a class="action-btn " href="">Contact</a>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="" alt="" class="job-logo">
+                    <div class="job-ref">
+                        <h1 class="job-title">UI/UX designer</h1>
+                        <p class="time-posted">3 mins</p>
+                    </div>
+                    <i class="app-no">be the first to apply</i>
+                    <div class="job-specs">
+                        <p class="job-spec">full time</p>
+                        <p class="job-spec">remote</p>
+                        <p class="job-spec">Intermediate</p>
+                    </div>
+                    <p class="job-req">
+                        We are looking for a designer who is detailed oriented and creates simple and usable designs.
+                    </p>
+                    <div class="action-btns">
+                        <a class="action-btn " href="">Apply now</a>
+                        <a class="action-btn " href="">Contact</a>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="" alt="" class="job-logo">
+                    <div class="job-ref">
+                        <h1 class="job-title">UI/UX designer</h1>
+                        <p class="time-posted">3 mins</p>
+                    </div>
+                    <i class="app-no">be the first to apply</i>
+                    <div class="job-specs">
+                        <p class="job-spec">full time</p>
+                        <p class="job-spec">remote</p>
+                        <p class="job-spec">Intermediate</p>
+                    </div>
+                    <p class="job-req">
+                        We are looking for a designer who is detailed oriented and creates simple and usable designs.
+                    </p>
+                    <div class="action-btns">
+                        <a class="action-btn " href="">Apply now</a>
+                        <a class="action-btn " href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="">
+        <div class="footer container">
+            <div>
+                <img class="xplore" src="images/Logo_whitebg_c1_50.jpg" alt="">
+                <p>At TechXplore, you not only get the vest courses but you get to join a community of people willing to make you grow!</p>
+                <nav class="social-media">
+                    <p>Follow us on social media: </p>
+                    <a href=""><img src="images/fb.png" alt=""></a>
+                    <a href=""><img src="images/twitter.png" alt=""></a>
+                    <a href=""><img src="images/slack.png" alt=""></a>
+                    <a href=""><img src="images/ig.png" alt=""></a>
+                    <a href=""><img src="images/ln.png" alt=""></a>
+                </nav>
+            </div>
+            <div>
+                <h2>Contact Us</h2>
+                <p><i class="fas fa-map-marker"></i> 8 Jubilee-CMD Road, Magodo,lagos state</p>
+                <p><i class="fas fa-mail-bulk"></i> hello@techxplore</p>
+            </div>
+            <div>
+                <h2>Links</h2>
+                <nav class="links">
+                    <ul class="links">
+                        <li class="link"><a href="#join-us">About Us</a></li>
+                        <li class="link"><a href="#info">How It Works</a></li>
+                        <li class="link"><a href="#partners">Partnership</a></li>
+                        <li class="link"><a href="job.html">Blog</a></li>
+                        <li class="link"><a href="#info">Privacy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h2>Services</h2>
+                <nav class="links">
+                    <ul class="links">
+                        <li class="link"><a href="job.html">Internship</a></li>
+                        <li class="link"><a href="#info">Trainings</a></li>
+                        <li class="link"><a href="job.html">Jobs</a></li>
+                        <li class="link"><a href="job.html">Events</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h2>Sign up to get updates</h2>
+                <p>Get updated on upcoming trainings, scholarships and latest job postings.</p>
+                <form class="footer-form" action="">
+                    <input type="text" placeholder="example@email.com">
+                    <button class="sub-btn" type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
         </div>
-        <div class="flexbox3">
-            <img class="apple" src="Image/Graphic designer.png" alt="">
-            <h3>Graphics designer</h3> 1 day <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox4">
-            <img class="apple" src="Image/motion designer.png" alt="">
-            <h3>Motion designer</h3> 27 Dec. <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox5">
-            <img class="apple" src="Image/visual designer.png" alt="">
-            <h3>Visual designer</h3> 7 days <br>
-            <i>23 applicants</i> <br>
-            <button class="intern">Intern</button>
-            <button class="remote">Remote</button>
-            <button class="beginer">Beginer</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox6">
-            <img class="apple" src="Image/UX designer.png" alt="">
-            <h3>Product designer</h3> 22 Jan. <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox7">
-            <img class="apple" src="Image/visual designer.png" alt="">
-            <h3>Designer intern</h3> 7 Jan. <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox8">
-            <img class="apple" src="Image/UX designer.png" alt="">
-            <h3>Designer intern</h3> 3 mins <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="intern">Intern</button>
-            <button class="remote">Remote</button>
-            <button class="beginer">Beginer</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox9">
-            <img class="apple" src="Image/product design.png" alt="">
-            <h3>Graphics intern</h3> 1 day <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox10">
-            <img class="apple" src="Image/motion designer.png" alt="">
-            <h3>Motion intern</h3> 27 Dec. <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox11">
-            <img class="apple" src="Image/Graphic designer.png" alt="">
-            <h3>Visual intern</h3> 7 days <br>
-            <i>23 applicants</i> <br>
-            <button class="intern">Intern</button>
-            <button class="remote">Remote</button>
-            <button class="beginer">Beginer</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-        <div class="flexbox12">
-            <img class="apple" src="Image/UIUX.png" alt="">
-            <h3>UI/UX intern</h3> 22 Jan. <br>
-            <i>Be the first to apply.</i> <br>
-            <button class="fulltime">full time</button>
-            <button class="remote">Remote</button>
-            <button class="intermediate">Intermediate</button> <br>
-            <span>We are looking for a designer who is detailed oriented and creates simple and usable designs</span> <br>
-            <button class="apply" name="apply" value="Apply now">Apply now</button>
-            <button class="contact" name="contact" value="Contact">Contact</button>
-        </div>
-    </div>
-
-
-
-
+        <p class="copyright"><small> Copyright&copy;2022 TechXplore</small><p>
+    </footer>
 </body>
 </html>
