@@ -106,21 +106,27 @@ header {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .filter{
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    gap: 10px;
 }
 .filter>div {
-    border-radius: 40px;background: rgba(255, 255, 255, 0.26);
-    box-shadow: 1px 1px 2px 1px rgba(46, 42, 42, 0.3);
     border-radius: 40px;
-    margin-bottom: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(46, 42, 42, 0.3);
     padding: 10px;
 }
 .bd-none {
     border:none;
 }
+.search input {
+    height: unset;
+}
 @media screen and (min-width: 650px) {
+    .filter {
+        grid-template: 1fr 1fr/ repeat(2, 1fr)
+    }
     .jobs {
         display: flex;
         flex-wrap: wrap;
