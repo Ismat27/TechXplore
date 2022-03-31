@@ -30,24 +30,38 @@ header {
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
 }
 .profile-switch {
+    display: relative;
     cursor: pointer;
 }
 .profile-items {
+    position: absolute;
+    right: 0;
+    /* z-index: 1; */
+    border: 1px solid whitesmoke;
+    text-align: start;
     display: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .show-profile-items {
     display: block;
 }
-.profile-item {
-    padding: 5px;
+.profile-item{
+    padding: 10px 5px;
 }
 .profile-item > a {
     color: black;
 }
-.profile-switch:hover .profile-items {
+.profile-item:hover > a {
+    color: white;
+}
+.profile-item:hover {
+    background-color: #195EF7;
+}
+.profile-switch:hover > .profile-items {
     display: block;
 }
 .job {
